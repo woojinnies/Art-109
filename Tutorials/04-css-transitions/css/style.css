@@ -35,3 +35,55 @@
     background-color: palevioletred;
     transform: scale(1.5);
 }
+.nova{
+    background-color: red;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 1s;
+    text-align: center;
+}
+.nova:hover{
+    color: white;
+    background-color: plum;
+    transform: skew(30deg);
+    
+}
+.load{
+    background-color: brown;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    transition: all 1s;
+}
+.load:hover{
+    transform: rotate(80deg);
+    background-color: aqua;
+}
+@keyframes spin{
+    
+}
+.think{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: 15px;
+    border-radius: 40px;
+    width: 50vw;;
+    animation: stretch 5s infinite alternate, change-color 5s infinite alternate ;
+}
+@keyframes stretch{
+    0%{width:100px}
+    100% {width: 100vw;}
+}
+@keyframes change-color{
+    0%{background-color: aqua;}
+    25%{background-color: blueviolet;}
+    50%{background-color: plum;}
+    75%{background-color: palevioletred;}
+    100%{background-color: black;}
+}
