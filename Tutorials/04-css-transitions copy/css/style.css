@@ -1,0 +1,44 @@
+
+body{
+    animation: change-color 4s infinite alternate;
+}
+@keyframes change-color{
+    0% {background-color: antiquewhite;}
+    50%{background-color: burlywood;}
+    100% {background-color: palevioletred;}
+}
+
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.square{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 50px auto;
+    transition: all 1s;
+}
+
+.square:hover{
+    background-color: greenyellow;
+    transform: rotate(30deg);
+}
+.button-div{
+    text-align: center;
+}
+.button{
+    color: white;
+    background-color: blueviolet;
+    padding:15px;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.button:hover{
+    background-color: palevioletred;
+    transform: scale(1.5);
+}
