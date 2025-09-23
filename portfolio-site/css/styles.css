@@ -46,9 +46,17 @@ footer a:hover{
 .home{
     background: url(../images/bg-home-office-city.jpg) no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+
 }
 .home .content-wrapper{
-    background: rgb( 224 224 224 / 0.9);
+    flex: 1 0 auto;
+}
+
+.content-bg{
+     background: rgb( 224 224 224 / 0.9);
+    padding:30px; 
 }
 /* Resume
 ==========================================================*/
@@ -93,6 +101,12 @@ footer a:hover{
 /* Work Experience
 ==========================================================*/
 
+.work-item{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+}
+
 /* Education
 ==========================================================*/
 
@@ -100,6 +114,9 @@ footer a:hover{
 ==========================================================*/
 footer{
     background: brown;
+    display:flex;
+    justify-content: space-between ;
+    padding: 0 20px;
 }
 
 .socials {
@@ -108,7 +125,12 @@ footer{
 }
 .socials li {
     display: inline-block;
+    margin-left: 10px;
 }
 .socials img {
     width: 32px;
+}
+
+.social img:hover{
+    opacity: 0.5;
 }
