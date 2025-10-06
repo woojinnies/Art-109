@@ -1,5 +1,3 @@
-
-
 .header{
      font-family: "Caveat", cursive;
     text-align: center;
@@ -96,8 +94,9 @@
 }
 
 .hidden{
-    visibility: hidden;
-
+    display: none;
+    /* display: hidden; */
+    
 }
 #dark-girl {
     position: absolute;
@@ -107,7 +106,7 @@
     width: auto;
     height: auto;
 }
-#girl-in-dark {
+#in-dark {
     position: absolute;
     top: 1200px;
     left: 50vw;
