@@ -1,6 +1,7 @@
 
 
 .header{
+     font-family: "Caveat", cursive;
     text-align: center;
     background-color: black;
     color: white;
@@ -22,13 +23,15 @@
 
 .left{
   left:0;
-  background-color: peachpuff;  
+  background-color: peachpuff;
+  font-family: "Caveat", cursive;  
 }
 
 .right{
     right: 0;
     background-color: rgb(49, 44, 44);
     color: white;
+    font-family: "Rubik Broken Fax", system-ui;
 }
 
 .right hover{
@@ -45,6 +48,10 @@
 .centered img{
     width: 150px;
     border-radius: 50%;
+}
+
+ a{
+    color: peru;
 }
 
 
