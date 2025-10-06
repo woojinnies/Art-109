@@ -54,5 +54,74 @@
     color: peru;
 }
 
+.para {
+    text-align: center;
+    background-color: black;
+    color: white;
+     font-family: "Rubik Glitch", system-ui;
+}
 
 
+.body-1 {
+    background-color: black;
+}
+.definition{
+    color: white;
+    text-align: center;
+    font-family: "Road Rage", sans-serif;
+    font-size: 3rem;
+}
+
+.download {
+    position: fixed;
+    top:5px;
+    left: 5px;
+    font-size: 1rem;
+}
+
+.btn {
+    background: darkred;
+    color: #f6f6f6;
+    text-decoration:none ;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    border-radius: 4px;
+}
+.image-div{
+    display:inline-block ;
+}
+
+.hidden{
+    visibility: hidden;
+    
+}
+#dark-girl {
+    position: absolute;
+    top: 1000px;
+    left: 10vw;
+    border: 10px;
+    width: auto;
+    height: auto;
+}
+#in-dark {
+    position: absolute;
+    top: 1200px;
+    left: 50vw;
+     border: 10px;
+}
+#obessive {
+    position: absolute;
+    top: 2000px;
+    left: 50vw;
+     border: 10px;
+}
+#parasocial {
+    position: absolute;
+    top: 1950px;
+    left: 0vw;
+     border: 10px;
+}
