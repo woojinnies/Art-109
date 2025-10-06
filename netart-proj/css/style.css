@@ -97,7 +97,7 @@
 
 .hidden{
     visibility: hidden;
-    
+
 }
 #dark-girl {
     position: absolute;
@@ -107,7 +107,7 @@
     width: auto;
     height: auto;
 }
-#in-dark {
+#girl-in-dark {
     position: absolute;
     top: 1200px;
     left: 50vw;

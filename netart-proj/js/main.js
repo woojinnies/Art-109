@@ -1,8 +1,8 @@
 document.querySelector('#dark-girl').addEventListener('click', function(){
-    document.querySelector('#in-dark').style.display = 'visible'
+    document.querySelector('#girl-in-dark').style.display = 'visible'
     alert("He Talks to me all the time but ignored me today... He's only supposed to talk to me...")
 })
-document.querySelector('#in-dark').addEventListener('click', function(){
+document.querySelector('#girl-in-dark').addEventListener('click', function(){
     document.querySelector('#obessive').style.display = 'visible'
     alert(" He's Mine and Only Mine...")
 })
