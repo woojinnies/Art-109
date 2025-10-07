@@ -29,7 +29,7 @@
     right: 0;
     background-color: rgb(49, 44, 44);
     color: white;
-    font-family: "Rubik Broken Fax", system-ui;
+    font-family: "Rubik Glitch", system-ui;
 }
 
 .right hover{
@@ -149,12 +149,24 @@ img.resize{
   100% {transform: translateX(0);}
 }
 
+.h1{
+    animation: tiltWave 3s ease-in-out infinite;
+}
+
 .h2 {
     background-color: plum;
     text-align: center;
     padding: 10px;
-    border: 0;
-    border-style: solid;
     font-family: "Caveat", cursive;
     font-size: 2rem;
 }
+
+.body-2{
+    background-color: plum;
+    border-style: dashed;
+    border-color: white;
+}
+
+@keyframes tiltWave {
+          0%, 100% { transform: rotateX(0deg) rotateY(0deg); } 25% { transform: rotateX(10deg); } 50% { transform: rotateY(10deg); } 75% { transform: rotateX(-10deg); }
+        }
