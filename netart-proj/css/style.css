@@ -148,3 +148,13 @@ img.resize{
   40%, 60% {transform: translateX(5px);}
   100% {transform: translateX(0);}
 }
+
+.h2 {
+    background-color: plum;
+    text-align: center;
+    padding: 10px;
+    border: 0;
+    border-style: solid;
+    font-family: "Caveat", cursive;
+    font-size: 2rem;
+}
