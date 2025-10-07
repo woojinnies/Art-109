@@ -68,6 +68,7 @@
     text-align: center;
     font-family: "Road Rage", sans-serif;
     font-size: 3rem;
+     animation: shake 1s infinite;
 }
 
 .download {
@@ -128,7 +129,7 @@ img.resize{
   max-height:50%;
 }
 
-p{
+.main-para {
     color: white;
     text-align: center;
      animation: shake 1s infinite;
