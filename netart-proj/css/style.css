@@ -170,3 +170,31 @@ img.resize{
 @keyframes tiltWave {
           0%, 100% { transform: rotateX(0deg) rotateY(0deg); } 25% { transform: rotateX(10deg); } 50% { transform: rotateY(10deg); } 75% { transform: rotateX(-10deg); }
         }
+        
+
+
+ #albums {
+    position: absolute;
+    top: 1000px;
+    left: 10vw;
+    border-radius: 9px;
+   
+}
+#concert {
+    position: absolute;
+    top: 1200px;
+    left: 50vw;
+     border: 10px;
+}
+#music {
+    position: absolute;
+    top: 2000px;
+    left: 25vw;
+     border: 10px;
+}
+#friend-group {
+    position: absolute;
+    top: 1950px;
+    left: 0vw;
+     border: 10px;
+}
