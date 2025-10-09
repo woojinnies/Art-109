@@ -16,22 +16,3 @@ document.querySelector('#obessive').addEventListener('click', function() {
 document.querySelector('#parasocial').addEventListener('click', function() {
     alert("Why is she Talking to Him?!");
 });
-
-
-document.querySelector('#friend-group').addEventListener('click', function() {
-    ///document.querySelector('#concert').classList.remove('hidden');
-    document.querySelector('#concert').style.visibility = 'visible';
-    alert("Friends Enjoying music together");
-});
-
-document.querySelector('#concert').addEventListener('click', function() {
-    ///document.querySelector('#music').classList.remove('hidden');
-    document.querySelector('#music').style.visibility = 'visible';
-    alert("Enjoying a Great Concert!");
-});
-
-document.querySelector('#music').addEventListener('click', function() {
-    ///document.querySelector('#albums').classList.remove('hidden');
-    document.querySelector('#music').style.visibility = 'visible';
-    alert("Listening to all her favorite artists");
-});

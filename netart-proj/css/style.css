@@ -173,28 +173,38 @@ img.resize{
         
 
 
- #albums {
-    position: absolute;
+.albums {
+    position:relative ;
     top: 1000px;
-    left: 10vw;
+    left: 20px;
     border-radius: 9px;
-   
+    padding: 10px ;
+
 }
-#concert {
+.concert {
     position: absolute;
     top: 1200px;
     left: 50vw;
      border: 10px;
+    
+    
 }
-#music {
+.music {
     position: absolute;
     top: 2000px;
     left: 25vw;
      border: 10px;
+    
 }
-#friend-group {
-    position: absolute;
+.friend-group {
+    position: relative;
     top: 1950px;
-    left: 0vw;
+    left: 10vw;
      border: 10px;
+    
+}
+.info {
+    text-align: right;
+    font-family: "Caveat", cursive;
+    font-size: 2rem;
 }
