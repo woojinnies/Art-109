@@ -1,0 +1,15 @@
+.body {
+    background-image: url(images/90s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.iframe-container {
+    width: 100%;
+    text-align: center;
+}
+.iframe-container iframe {
+    margin: 0 auto;
+    display: block;
+}
