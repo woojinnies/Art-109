@@ -37,3 +37,31 @@
  display: inline-block;
  position: relative;
 }
+
+.cell {
+    border-radius: 10px;
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
+}
+
+.cell:hover{
+    animation-play-state: running;
+}
+
+@keyframes spin {
+    100% {transform: rotate(1turn) ;}
+}
+
+.mp3{
+   width: 300px ;
+    animation: skew 1s infinite alternate;
+    animation-play-state: paused;
+}
+.mp3:hover{
+     animation-play-state: running;
+}
+
+@keyframes skew{
+    0% {transform:skew(0deg,0deg);}
+    100% {transform:skew(30deg,20deg);}
+}
