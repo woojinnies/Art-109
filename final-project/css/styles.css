@@ -8,8 +8,32 @@
 .iframe-container {
     width: 100%;
     text-align: center;
+    position: relative;
 }
 .iframe-container iframe {
     margin: 0 auto;
     display: block;
+    position: relative;
+}
+
+.tv1{
+    margin-top: -400px;
+    position: relative;
+}
+.para{
+    color:black;
+    text-align: center;
+    text-decoration: solid;
+    font-size: larger;
+    font-family: "Nabla", system-ui;
+}
+
+.text-box {
+  border: 2px solid ;
+  padding: 16px;
+  background-color: #b46c6c;
+  width: fit-content;
+  border-radius: 8px;
+ display: inline-block;
+ position: relative;
 }
