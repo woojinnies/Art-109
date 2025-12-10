@@ -9,11 +9,13 @@
     width: 100%;
     text-align: center;
     position: relative;
+    z-index: 1;
 }
 .iframe-container iframe {
     margin: 0 auto;
     display: block;
     position: relative;
+    z-index: 1;
 }
 
 .tv1{
@@ -42,6 +44,9 @@
     border-radius: 10px;
     animation: spin 5s linear infinite;
     animation-play-state: paused;
+    position: relative;
+    display: inline;
+    text-align: center;
 }
 
 .cell:hover{
@@ -56,6 +61,8 @@
    width: 300px ;
     animation: skew 1s infinite alternate;
     animation-play-state: paused;
+    position: relative;
+    text-align: center;
 }
 .mp3:hover{
      animation-play-state: running;
@@ -64,4 +71,88 @@
 @keyframes skew{
     0% {transform:skew(0deg,0deg);}
     100% {transform:skew(30deg,20deg);}
+}
+
+.a1{
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-size: larger;
+}
+.button {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button:hover:after {
+  transform: translate(0, 0);
+}
+
+.button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+.body2{
+    background-image: url(images/vintage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.old-tv {
+    margin-top:-390px;
+    margin-left: 50px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.videoWrapper{
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
 }
