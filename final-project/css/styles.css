@@ -204,15 +204,44 @@ z-index: 1;
     background-color: gray;
     border-radius: 10px;
     position: relative;
+       border-radius: 10px;
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
+    display: inline;
+    text-align: center;
 }
 
+
+.group:hover{
+  animation-play-state: running;
+}
 .logo{
     position: relative;
 
     height: 290px;
+      border-radius: 10px;
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
+    position: relative;
+    display: inline;
+    text-align: center;
+}
+
+.logo:hover{
+     animation-play-state: running;
 }
 
 .girl{
     position: relative;
     height: 390px;
+      border-radius: 10px;
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
+    position: relative;
+    display: inline;
+    text-align: center;
+}
+
+.girl:hover{
+     animation-play-state: running;
 }
